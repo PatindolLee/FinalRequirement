@@ -1,0 +1,51 @@
+body{background-image: url(bg.jpg); background-size: cover; background-repeat: no-repeat;background-attachment: fixed;}
+
+.border{
+    margin:40px auto;
+    width: 50%;
+    height: 1px;
+
+}
+.login-form-text {
+    display: block;
+    width: 100%;
+    color: #ddd;
+    margin: 16px 0;
+    border: 0;
+    box-sizing: border-box;
+    background:black;
+    padding: 20px 40px;
+}
+
+.login-form {
+    padding: 0 5px;
+    overflow: hidden;
+    max-width: 600px;
+    margin: auto;
+   
+}
+
+p {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+
+}
+.login-form-btn {
+    float: right;
+    border: 0;
+    padding: 12px 50px;
+    background: black;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+
+
+}
+
+.login-form-btn:hover {
+    background: rgb(77, 198, 214);
+}
+
